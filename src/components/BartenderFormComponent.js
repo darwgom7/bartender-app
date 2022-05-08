@@ -51,8 +51,8 @@ function BartenderFormComponent() {
                             placeholder='Id pila vasos...'
                             type="number" 
                             min="1"
-                            max="3"
-                            {...register("idPila", { required: true, min: 1, max: 3 })}
+                            max="5"
+                            {...register("idPila", { required: true, min: 1, max: 5 })}
                         />
                     </div>
                 </Form.Field>
@@ -61,7 +61,7 @@ function BartenderFormComponent() {
                 </div>
                 <div className='form-group mt-4'>
                     <div className='d-flex justify-content-end'>
-                        <Button type='submit' className='btn btn-dark w-50'>Submit</Button>
+                        <Button type='submit' className='btn btn-dark w-50'>Consultar</Button>
                     </div>
                 </div>
             </Form>
